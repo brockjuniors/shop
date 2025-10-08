@@ -1,2 +1,0 @@
-/* LICENSES */
-import{d as o,a0 as l,j as p}from"./index-480d2dd1.js";import{a as c}from"./index-3129d060.js";import{p as f}from"./purify.es-50c8f130.js";function x(){const r=o.useRef(null),[a,i]=o.useState("");return o.useEffect(()=>{const s=new AbortController;return c.get("https://cdn.shopify.com/s/files/1/0809/6366/6236/files/shopify-privacy-policy?v=1693371183",{signal:s.signal}).then(t=>t.body).then(t=>{l(t,e=>{e=f.sanitize(e),i(n=>n+e)})}),()=>s.abort()},[]),p.jsx("div",{className:"privacy-policy",ref:r,dangerouslySetInnerHTML:{__html:a}})}export{x as default};

@@ -1,0 +1,2 @@
+/* LICENSES */
+import{d as s,a0 as f,j as l}from"./index-f670b21d.js";import{a as m}from"./index-3129d060.js";import{p}from"./purify.es-50c8f130.js";function d(){const o=s.useRef(null),[a,n]=s.useState("");return s.useEffect(()=>{const r=new AbortController;return m.get("https://cdn.shopify.com/s/files/1/0809/6366/6236/files/shopify-terms-of-service?v=1693372500",{signal:r.signal}).then(e=>e.body).then(e=>{f(e,t=>{t=p.sanitize(t),n(i=>i+t)})}),()=>r.abort()},[]),l.jsx("div",{className:"terms-of-service",ref:o,dangerouslySetInnerHTML:{__html:a}})}export{d as default};
