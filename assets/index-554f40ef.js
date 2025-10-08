@@ -1,0 +1,2 @@
+/* LICENSES */
+import{d as e,j as p}from"./index-b07ff8f9.js";import{a as n}from"./index-3129d060.js";import{p as c}from"./purify.es-50c8f130.js";function l(){const s=e.useRef(null),[i,o]=e.useState("");return e.useEffect(()=>{n.get("https://cdn.shopify.com/s/files/1/0809/6366/6236/files/shopify-shipping-policy?v=1693370991").then(t=>t.text()).then(t=>c.sanitize(t)).then(o).catch(()=>{})},[]),p.jsx("div",{className:"shipping-policy",ref:s,dangerouslySetInnerHTML:{__html:i}})}export{l as default};

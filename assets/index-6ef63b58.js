@@ -1,0 +1,2 @@
+/* LICENSES */
+import{d as e,j as s}from"./index-b07ff8f9.js";import{a}from"./index-3129d060.js";function l(){const t=e.useRef(null),[c,n]=e.useState("");return e.useEffect(()=>{a.get("/assets/LICENSE.txt").then(r=>r.text()).then(n).catch(()=>{})},[]),s.jsx("div",{className:"licenses screen-grid",ref:t,children:s.jsx("article",{className:"license-text",children:s.jsx("pre",{children:c})})})}export{l as default};
