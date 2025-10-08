@@ -1,2 +1,0 @@
-/* LICENSES */
-import{d as s,a0 as c,j as r}from"./index-c83b40be.js";import{a as x}from"./index-3129d060.js";import{p as f}from"./purify.es-50c8f130.js";function u(){const a=s.useRef(null),[o,i]=s.useState("");return s.useEffect(()=>{const n=new AbortController;return x.get("/assets/LICENSE.txt",{signal:n.signal}).then(e=>e.body).then(e=>{c(e,t=>{t=f.sanitize(t),i(l=>l+t)})}),()=>n.abort()},[]),r.jsx("div",{className:"licenses screen-grid",ref:a,children:r.jsx("article",{className:"license-text",children:r.jsx("pre",{children:o})})})}export{u as default};
